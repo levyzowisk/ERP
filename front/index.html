@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG TECH - Teste</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <section class="d-flex flex-column align-items-center ">
+
+        <Form class="form" id="meuform" method="post">
+            <hr>
+
+            <h1>Dados Gerais</h1>
+            <div class="form-group">
+                <label for="tipocliente">Tipo de Cliente</label>
+                <select class="form-control w-100" name="tipocliente" id="clientetipo">
+                    <option  value="pf">Pessoa Física</option>
+                    <option value="pj">Pessoa Jurídica</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="situacao">Situação</label>
+                <select class="form-control w-100" name="situacao" id="situacao">
+                    <option value="ativo">Ativo</option>
+                    <option value="inativo">Inativo</option>
+                </select>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control w-100" id="nome" placeholder="Digite seu Nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control w-100" name="email" id="email" placeholder="nome@nome.com">
+            </div>
+
+            <div class="form-group">
+                <label for="telefonecomercial">Telefone Comercial</label>
+                <input type="text" class="form-control w-100" name="telefonecomercial" id="telefonecomercial" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefonecomercial">Telefone(Celular)</label>
+                <input type="text" class="form-control w-100" name="telefonecomercial" id="telefonecomercial" placeholder="(XX) XXXXX-XXXX" required>
+            </div>
+
+            <div class="form-group">
+                <label for="site">Site</label>
+                <input type="text"class="form-control w-100" name="site" id="site" placeholder="Coloque aqui a URL do seu site.">
+            </div>
+
+            <div class="form-group">
+                <label for="vendedor">Vendedor</label>
+                <input type="text" class="form-control w-100" name="text" id="text" placeholder="Ex: Maria das Dores">
+            </div>
+
+            <hr>
+
+            <!-- <h1>Endereço</h1>
+
+            <div class="form-group">
+                <label for="tipo">Tipo</label>
+                <select class="form-control w-100" name="tipo" id="tipo">
+                    <option value="residencial">Residencial</option>
+                    <option value="casa">Casa</option>
+                    <option value="comercial">Comercial</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input class="form-control w-100" type="text" placeholder="6006100-00">
+            </div>
+
+            <div class="form-group">
+                <label for="logradouro">Logradouro</label>
+                <input class="form-control w-100" type="text" placeholder="Rua 15">
+            </div>
+
+            <div class="form-group">
+                <label for="numero">Número</label>
+                <input class="form-control w-100" type="text" placeholder="192-A">
+            </div>
+
+            <div  class="form-group">
+                <label for="complemento">Complemento</label>
+                <input class="form-control w-100" type="text" placeholder="Ponto de referência">
+            </div>
+
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input class="form-control w-100" type="text" placeholder="Aldeota">
+            </div>
+
+            <div  class="form-group">
+                <label for="cidade">Cidade</label>
+                <input class="form-control w-100" type="text" placeholder="Fortaleza">
+            </div>
+
+            <div  class="form-group">
+                <label for="uf">UF</label>
+                <input class="form-control w-100" type="text" placeholder="Ceará">
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-secondary">Inserir novo Endereço</button>
+            </div>
+
+            <hr>
+
+            <div class="form-group">
+                <button class="btn btn-secondary">Inserir novo contato</button>
+            </div>
+
+            <hr>
+
+            <div class="form-group">
+                <label for="limitecredito">Limite de Crédito</label>
+                <input class="form-control w-100" type="text" placeholder="1000.00 R$">
+            </div>
+
+            <hr>
+            
+            <div class="form-group">
+                <label for="foto">Insira uma imagem (jpg, jpeg, png) de até 5MB</label>
+                <input class="form-control-file" type="file" name="foto" id="foto">
+            </div>
+
+            <hr>
+
+            <div class="form-group">
+                <label for="foto">Anexar arquivos e documentos de até 5MB</label>
+                <input class="form-control-file" type="file" name="foto" id="foto">
+            </div>
+
+            <div class="form-group">
+                <label for="obs">Observações</label>
+                <textarea class="form-control w-100" name="obs" id="obs"></textarea>
+                
+            </div> -->
+
+            <div class="form-group">
+                <button>
+                    Confirmar
+                </button>
+                <button>
+                    Cancelar
+                </button>
+            </div>
+        </Form>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
